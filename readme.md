@@ -10,4 +10,8 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+In order to set up a local enviroment you need to install docker on your machine and register fro an docker account. 
+You can check if docker is installed correctly by typing "docker -v" and "docker-compose -v" which should return a working version. 
+After that go to the local repository directory and "docker-compose up" to buil a local enviroment. This process takes a bit. 
+You can check if your local database is working by visiting "http://localhost:3000/api/ping" in your browser.
+If everything is working properly, you’ll be able to create a new user on http://localhost:3001/register.  
